@@ -80,7 +80,7 @@ if (random >= -5 && random <= 10) {
         
     </div> 
     `
-} else if (random >= 10 && random <= 25) {
+} else if (random >= 11 && random <= 25) {
     console.log("The weather is mild")
     card.innerHTML = `
     <img src="https://images.pexels.com/photos/175407/pexels-photo-175407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
@@ -90,7 +90,7 @@ if (random >= -5 && random <= 10) {
         
     </div>
     `
-} else if (random >= 25 && random <= 32) {
+} else if (random >= 26 && random <= 32) {
     console.log("The weather is hot")
     card.innerHTML = `
     <img src="https://images.pexels.com/photos/1045113/pexels-photo-1045113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
