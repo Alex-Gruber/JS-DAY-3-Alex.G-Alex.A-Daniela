@@ -10,3 +10,9 @@ if (therandomNumber < 10) {
 } else {
     console.log('The weather is warm')
 }
+
+
+// Basic 2
+
+let highestnumber = [2, 5, -12, -14, 3, 15, 2345, 545454, 2]
+console.log(Math.max(...highestnumber))
